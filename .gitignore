@@ -1,0 +1,44 @@
+
+# developer specific files
+application-dev.properties
+application-test.properties
+portal-vaadin/node/
+portal-vaadin/node_modules/*
+portal-vaadin/webpack*
+portal-vaadin/package*
+
+
+#vaadin 14
+node_modules
+webpack.generated.js
+
+target/
+.mvn/*
+lib/*
+mvnw.cmd
+mvnw
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea/*
+*.iws
+*.iml
+*.ipr
+rebel.xml
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+polling_timeout.txt
+application-dev.properties

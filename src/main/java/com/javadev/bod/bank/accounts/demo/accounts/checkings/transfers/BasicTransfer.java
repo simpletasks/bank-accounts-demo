@@ -1,9 +1,9 @@
-package com.javadev.bod.bank.accounts.demo.transfers;
+package com.javadev.bod.bank.accounts.demo.accounts.checkings.transfers;
 
 import java.math.BigDecimal;
 
 import com.javadev.bod.bank.accounts.demo.accounts.Account;
-import com.javadev.bod.bank.accounts.demo.accounts.CheckingAccount;
+import com.javadev.bod.bank.accounts.demo.accounts.checkings.CheckingAccount;
 
 public class BasicTransfer implements Transfer {
 
@@ -26,6 +26,7 @@ public class BasicTransfer implements Transfer {
             targetAccount.add(withdrawAmount);
             return true;
         }
+        sourceAccount.add(withdrawAmount);
         return false;
     }
     
